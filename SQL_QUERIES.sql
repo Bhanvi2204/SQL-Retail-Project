@@ -1,5 +1,9 @@
+/*CREATING A DATABASE*/
 CREATE DATABASE mysql_project;
+
 USE mysql_project;
+
+/*CREATING A RETAIL SALES TABLE IN THE DATABASE*/
 CREATE TABLE retail_sales(
 transactions_id	INT PRIMARY KEY,
 sale_date DATE,
@@ -15,6 +19,7 @@ total_sale FLOAT
 );
 
 /* data cleaning*/
+/*TO CHECK IF THE CSV FILE IS SUCCESSFULLY IMPORTED OR NOT*/
 SELECT * FROM retail_sales;
 
 SELECT * FROM retail_sales
